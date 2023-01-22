@@ -1,0 +1,27 @@
+body{
+    background-color: #abdddd;
+    text-align: center;
+    margin-top: 10px;   
+}
+.top container{
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(115, 240, 219);
+}
+h1{
+    color: rgb(117, 60, 60);
+    text-align: center;   
+}
+.gener{
+    color: rgb(39, 23, 23);
+}
+input[type="color"]::-webkit-color-swatch {
+  border-radius: 50%;
+  border: 0.5rem solid rgb(32, 218, 94);
+}
+input[type="button"]:hover {
+  color: rgb(255, 255, 255);
+  background: goldenrod;
+  border: none;
+}
+
