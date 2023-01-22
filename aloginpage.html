@@ -1,18 +1,37 @@
+<!DOCTYPE html>
 <html>
+    <head>
     <title>Timon's login page</title>
+    </head>
     <body>
         <link rel="stylesheet" href="css/alogin.css">
+        <div class="top-container"></div>
         <h1>Timon's Login page</h1>
+        <div class="bottom container"></div>
         <label for="fname">First name:</label><br>
         <input type="text"><br>
         <label for="fname">Last name:</label><br>
         <input type="text"><br>
+
+      <div class="gener"><br>
+        
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" id="male" value="Male" />
+        <label for="male" class="radio-label"> Male</label>
+
+        <input type="radio" name="gender" id="female" value="Female" />
+        <label for="female" class="radio-label"> Female</label>
+      </div><br>
         <label for="email">Email:</label><br>
         <input type="email"><br>
         <label for="psw">Password:</label><br>
         <input type="password" placeholder="Enter Password" name="psw" required><br>
         <br>
-        <input type="submit">
+        <div class="colour">
+        <label for="color">Color: </label>
+        <input type="color" name="color" />
+      </div><br>
+         <input type="button" name="button" value="Submit" id="submit">
         </form>
     </body>
 </html>
